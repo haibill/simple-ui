@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Awesome</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/logosn.png">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="css/tabs.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/tree-viewer/tree-viewer.css">
+
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/brands.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/regular.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/solid.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/svg-with-js.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/v4-shims.min.css">
+    <!-- <link rel="stylesheet" href="js/dataTables/bootstrap.css"> -->
+    <link rel="stylesheet" href="js/dataTables/dataTables.bootstrap4.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+</head>
+
+<body>
+    <!-- ##### Header Area Start ##### -->
+    <header class="header_area">
+        <div class="classy-nav-container breakpoint-off d-flex align-items-center justify-content-between">
+            <!-- Classy Menu -->
+            <nav class="classy-navbar" id="essenceNav">
+                <!-- Logo -->
+                <a class="nav-brand" href="index.html"><img src="img/core-img/logo3.png" alt=""></a>
+                <!-- Navbar Toggler -->
+                <div class="classy-navbar-toggler">
+                    <span class="navbarToggler"><span></span><span></span><span></span></span>
+                </div>
+                <!-- Menu -->
+                <div class="classy-menu">
+                    <!-- close btn -->
+                    <div class="classycloseIcon">
+                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                    </div>
+                    <!-- Nav Start -->
+                    <div class="classynav">
+                        <ul>
+                            <li><a href="#"> <i class="fa fa-list"></i> Menu</a>
+                                <div class="megamenu">
+                                    <ul class="single-mega cn-col-4">
+                                        <li class="title"> <i class="far fa-folder-open"></i> Master Data</li>
+                                        <li><a href="shop.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Barang</a></li>
+                                    </ul>
+                                    <ul class="single-mega cn-col-4">
+                                        <li class="title"> <i class="fas fa-shopping-cart"></i> Transaction</li>
+                                        <li><a href="shop.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pembelian</a></li>
+                                    </ul>
+                                    <ul class="single-mega cn-col-4">
+                                        <li class="title"> <i class="fas fa-book-open"></i> Report</li>
+                                        <li><a href="shop.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jurnal Umum</a></li>
+                                        <li><a href="shop.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buku Besar</a></li>
+                                    </ul>
+                                    <ul class="single-mega cn-col-4">
+                                        <li class="title"> <i class="fas fa-gear"></i> Setting</li>
+                                        <li><a href="setting-layout.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Layout</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="badge badge-primary" style="vertical-align: 10px;">mb</span>
+                                <span class="badge badge-success" style="vertical-align: 10px;">v 0.0.3</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Nav End -->
+                </div>
+            </nav>
+
+            <!-- Header Meta Data -->
+            <div class="header-meta d-flex clearfix justify-content-end">
+                <div class="search-area">
+                    <form action="#" method="post">
+                        <input type="search" name="search" id="headerSearch" placeholder="Hai , Billy!" readonly>
+                    </form>
+                </div>
+                <div class="user-login-info">
+                    <a href=""><img src="img/icons8-export-100.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <div class="cart-bg-overlay"></div>
+    <div class="container" style="background-color: #F8F8FF;">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Setting</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Layout</li>
+            </ol>
+        </nav>
+    </div>
+
+    <div class="checkout_area section-padding-80 clearfix">
+        <div class="container">
+            <div style="text-align: right; padding-bottom: 10px; font-size: medium;">
+                <span data-toggle="modal" data-target="#modal-info">
+                    <button class="btn btn-outline-secondary" data-toggle="tooltip" title="Info this page"> 
+                        <i class="far fa-question-circle"></i>
+                    </button>
+                </span>
+            </div>
+
+            <div class="cart-page-heading mb-30">
+                <h5>Create Person</h5>
+            </div>
+
+            <form action="#" method="post">
+                <div class="row">
+
+                    <div class="col-md-6 mb-3">
+                        <label><b>Name <span style="color: tomato;">*</span></b></label>
+                        <input type="text" class="form-control" name="" placeholder="Contoh: Soi Fon">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label><b>Foto <span style="color: tomato;">*</span></b></label>
+                        <input type="file" class="form-control" name="">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label><b>Name <span style="color: tomato;">*</span></b></label>
+                        <input type="color" class="form-control" name="" placeholder="Contoh: Soi Fon">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label><b>Alamat <span style="color: tomato;">*</span></b></label>
+                        <textarea class="form-control" name="" cols="20" rows="5" placeholder="Contoh: Jalan Buah Batu Bandung"></textarea>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label><b>Gender <span style="color: tomato;">*</span></b></label>
+                        <select class="form-control select2_demo_2" name="" style="width: 100%;">
+                            <option disabled>Ex. Male</option>
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3 text-right">
+                    <button type="button" class="btn btn-outline-secondary" onclick="window.location.href='tes.html' ">
+                        <i class="far fa-caret-square-left"></i> Back
+                    </button>
+                    &nbsp; &nbsp;
+                    <button type="submit" class="btn btn-outline-success"> 
+                        <i class="fa fa-save"></i> Save
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-info">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+            <div class="modal-header">
+                <h4 class="modal-title">Submenu Information</h4>
+                <button type="button" class="close" data-dismiss="modal" style="color: tomato;">&times;</button>
+            </div>
+            <div class="modal-body">
+                <!-- Tabs with icons on Card -->
+                <div class="card card-nav-tabs">
+                    <div class="card-header card-header-danger">
+                        <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+                        <div class="nav-tabs-navigation">
+                            <div class="nav-tabs-wrapper">
+                                <ul class="nav nav-tabs" data-tabs="tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#info" data-toggle="tab">
+                                            <i class="fa fa-info"></i> information
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#code" data-toggle="tab">
+                                            <i class="fa fa-code"></i> code
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body ">
+                        <div class="tab-content text-center">
+                            <div class="tab-pane active" id="info">
+                                <div class="col-md-12 mb-3">
+                                    <label><b>Work Instructions</b></label>
+                                    <textarea class="form-control" readonly>Pada submenu "person" user bisa melihat data person yang disimpan di database. User juga bisa menambah atau mengubah data person.</textarea>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="code">
+                                <p>Source Code untuk menampilkan tampilan ini <br> 
+                                    <b> Controller </b> : application/controllers/person.php </p>
+                            </div>
+                        </div>
+                    </div></div>
+                <!-- End Tabs with icons on Card -->
+            </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="text-center">© 2020 Copyright:
+            <a href="" style="color: cornflowerblue;"> mmbalyann</a>
+        </div>
+    </footer>
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Select2 js -->
+    <script src="js/select2/select2.full.min.js"></script>
+    <script src="js/select2/select2-active.js"></script>
+    <!-- Data table js -->
+    <script src="js/dataTables/jquery.dataTables.js"></script>
+    <script src="js/dataTables/dataTables.bootstrap4.js"></script>
+    <!-- Classy Nav js -->
+    <script src="js/classy-nav.min.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+    <script src="js/tree-line/jstree.min.js"></script>
+    <script src="js/tree-line/jstree.active.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.dataTables').DataTable()
+        })
+    </script>
+
+</body>
+
+</html>

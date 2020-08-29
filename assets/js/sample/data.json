@@ -1,0 +1,14 @@
+{
+    "persons": [
+                {
+                    "name": "Kurosaki Ichigo",
+                    "gender": "Male",
+                    "address": "Karakura Town"
+                },
+                {
+                    "name": "Orihime Inoue",
+                    "gender": "Female",
+                    "address": "Karakura Town"
+                }
+            ]
+}
